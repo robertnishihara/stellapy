@@ -14,3 +14,5 @@ find_package(Numpy)
 
 boost_python_module(alepy alepy/alepy.cpp)
 target_link_libraries(alepy ale boost_numpy)
+
+set(CMAKE_BUILD_TYPE Debug)
